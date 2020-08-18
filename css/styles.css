@@ -1,3 +1,9 @@
+.group-std {
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .container {
   text-align: left;
 }

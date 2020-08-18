@@ -8,10 +8,11 @@ $(document).ready(function() {
 
     const myArray = [name, dessert, color, season];
 
-    let newArray = [myArray[0], myArray[2]];
+    let newArray = [myArray[0], myArray[1], myArray[2], myArray[3]];
 
     console.log(newArray);
 
-     $(".output").append(+ newArray[0] + "'s favorite" + myAray + "is " + newArray[1] + ".");
+    $("#favorite").append(newArray[0] + "'s favorite things are:" + "<li>" + newArray[1] + "</li>" + "<li>" + newArray[2] + "</li>" + "<li>" +  newArray[3] + "</li>");
+
   })
 })
